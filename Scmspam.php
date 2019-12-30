@@ -31,11 +31,11 @@ if(function_exists('pcntl_signal')) {
 		global $Y,$X;
 		switch($signal) {
 		case SIGTERM:
-		die($Y."\n====================[] INDOnimous Cyber Team []=====(√√√)>".$X."\n");
+		die($Y."\n====================[] SALAFI CYBER MUSLIM []=====(√√√)>".$X."\n");
 		case SIGKILL:
-		die($Y."\n====================[] INDOnimous Cyber Team []=====(√√)>".$X."\n");
+		die($Y."\n====================[] SALAFI CYBER MUSLIM []=====(√√)>".$X."\n");
 		case SIGINT:
-		die($Y."\n====================[] INDOnimois Cyber Team []=====(√)>".$X."\n");
+		die($Y."\n====================[] SALAFI CYBER MUSLIM []=====(√)>".$X."\n");
 		}
 	}
 	pcntl_signal(SIGTERM, "signal_handler");
